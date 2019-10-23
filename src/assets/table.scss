@@ -1,0 +1,29 @@
+.people_details {
+  text-align: left;
+  border: 1px solid #000;
+  margin-bottom: 20px;
+}
+
+.name {
+  border: 1px solid #000;
+  background-color: #e6e6e6;
+  padding: 11px 30px;
+  text-align: left;
+  font-size: 23px;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  border: 0.5px solid #000;
+  background-color: white;
+  padding: 11px 30px;
+
+  .subheading {
+    width: 50%;
+  }
+  .subheadingText {
+    width: 50%;
+    text-transform: capitalize;
+  }
+}
